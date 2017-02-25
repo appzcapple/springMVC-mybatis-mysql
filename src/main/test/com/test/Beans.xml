@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+	"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="car" class="com/java/Car.java"
+	destroy-method="myDestroy"
+	init-method="myInit">
+		<property name="brand" value="GB168"/>
+		<property name="maxSpeed" value="210"/>
+	</bean>
+
+</beans> 
