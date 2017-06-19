@@ -6,8 +6,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="src/main/core"/>
 	<classpathentry kind="src" path="src/main/web"/>
-	<classpathentry kind="src" path="src/main/model"/>
+	<classpathentry kind="src" path="src/main/data"/>
 	<classpathentry kind="src" path="src/main/service"/>
 	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
 	<classpathentry including="**/*.java" kind="src" path="src/main/webApp"/>

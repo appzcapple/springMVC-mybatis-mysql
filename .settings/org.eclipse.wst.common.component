@@ -6,8 +6,9 @@
         <wb-resource deploy-path="/" source-path="/src/main/webApp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webApp"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/service"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/model"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/web"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/core"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/data"/>
         <property name="context-root" value="WebProjectMavenized"/>
         <property name="java-output-path" value="/WebProjectMavenized/build/classes"/>
     </wb-module>
