@@ -1,4 +1,5 @@
 package com.appzcapple.models;
+
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
@@ -77,6 +78,6 @@ public class Car implements BeanFactoryAware, BeanNameAware, InitializingBean,
 	
 	public void myDestroy() {
 		System.out.println("myDestroy を呼び出す");
-		
+
 	}
 }
