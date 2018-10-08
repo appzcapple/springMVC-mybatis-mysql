@@ -5,6 +5,7 @@
 	
 	<bean id="catModel" class="com.appzcapple.models.Car">
 		<property name="color" value="black"/>
+		<property name="maxSpeed" value="100"/>
 	</bean>
 	
 	<import resource="infrastructure.xml" />

@@ -43,7 +43,21 @@
   		<param-value>/</param-value>
   	</init-param>
   </filter>
+
+  <filter-mapping>
+  	<filter-name>characterEncodingFilter</filter-name>
+  	<servlet-name>dispatcherServlet</servlet-name>
+  </filter-mapping>
   
+  <filter-mapping>
+  	<filter-name>characterEncodingFilter</filter-name>
+  	<servlet-name>dispatcherServlet</servlet-name>
+  </filter-mapping>
+  
+  <filter-mapping>
+  	<filter-name>securityFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
   
   <servlet>
         <servlet-name>dispatcherServlet</servlet-name>

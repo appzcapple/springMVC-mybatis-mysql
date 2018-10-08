@@ -32,8 +32,17 @@ public class SecurityFilter implements Filter {
 		
 		final ApplicationContext appContext = ContextLoader.getCurrentWebApplicationContext();
 		
+		System.out.println("filter : before chain");
 		
+//		if (!request.getParameter("user").equals("appzc")) {
+//			response.setStatus(403);
+//			response.getWriter().write("auth failed");
+//			return;
+//		}
 		
+		chain.doFilter(req, res);
+		
+		System.out.println("filter : after chain");
 	}
 
 	@Override
